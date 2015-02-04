@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D1B07441A7155A7003ACE79 /* nameClass.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 2D1B07431A7155A7003ACE79 /* nameClass.applescript */; };
 		2DDD522F1A6FD47D0066D363 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DDD522E1A6FD47D0066D363 /* AppleScriptObjC.framework */; };
 		2DDD52341A6FD47D0066D363 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD52331A6FD47D0066D363 /* main.m */; };
 		2DDD52361A6FD47D0066D363 /* AppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 2DDD52351A6FD47D0066D363 /* AppDelegate.applescript */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2D1B07431A7155A7003ACE79 /* nameClass.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; name = nameClass.applescript; path = ../nameClass.applescript; sourceTree = "<group>"; };
 		2DDD522B1A6FD47D0066D363 /* Zip Protect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zip Protect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DDD522E1A6FD47D0066D363 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
 		2DDD52321A6FD47D0066D363 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				2DDD52351A6FD47D0066D363 /* AppDelegate.applescript */,
+				2D1B07431A7155A7003ACE79 /* nameClass.applescript */,
 				2DDD52371A6FD47D0066D363 /* Images.xcassets */,
 				2DDD52391A6FD47D0066D363 /* MainMenu.xib */,
 				2DDD52311A6FD47D0066D363 /* Supporting Files */,
@@ -152,6 +155,7 @@
 			files = (
 				2DDD52361A6FD47D0066D363 /* AppDelegate.applescript in Sources */,
 				2DDD52341A6FD47D0066D363 /* main.m in Sources */,
+				2D1B07441A7155A7003ACE79 /* nameClass.applescript in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +290,7 @@
 				2DDD52401A6FD47D0066D363 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
